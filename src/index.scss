@@ -30,8 +30,22 @@ $fonts: roboto-bold, roboto-regular;
 }
 
 button {
+  transition: background-position 0.5s ease-in-out;
   color: whitesmoke;
-  background-color: #232742;
+  //background: linear-gradient(to left, #232742, #232742);
+  background: linear-gradient(to right, #232742, #232742, #fe5278, #ff693d) 1%;
+  background-size: 300%;
+  //background: #232742;
   height: 6rem;
   border-radius: 0.8rem;
+  cursor: pointer;
+  font-family: roboto-bold, sans-serif;
+  letter-spacing: 0.05rem;
+  font-size: 1.7rem;
+  border-color: transparent;
+
+  &:hover {
+    //background: linear-gradient(to right, #fe5278, #ff693d);
+    background-position: 99%;
+  }
 }
