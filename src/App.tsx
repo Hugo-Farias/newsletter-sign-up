@@ -4,7 +4,9 @@ import illu from "./assets/images/illustration-sign-up-mobile.svg";
 function App() {
   return (
     <div className={"app"}>
-      <img alt={"sign-up mobile illustration"} src={illu} />
+      <div className="image">
+        {/*<img alt={"sign-up mobile illustration"} src={illu} />*/}
+      </div>
       <div className={"content"}>
         <h1>Stay updated!</h1>
         <p>Join 60,000+ product manager receiving monthly updates on:</p>
